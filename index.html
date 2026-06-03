@@ -1,149 +1,114 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Luiza</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <title>Minha página web</title>
 </head>
-
 <body>
 
-    <header>
+    <div class="container">
 
-        <section class="hero">
+        <header class="perfil">
+            <img src="img/unnamed.png" alt="Foto de Perfil">
 
-            <div class="hero-texto">
-               <h1>Bem-vindo à minha página web!</h1>
-                <p>Aqui você acompanha minha evolução!</p>
+            <div class="info">
+                <h1>Maria Luiza dos Santos Mendes</h1>
+                <p>Desenvolvedora Front-End iniciante</p>
 
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Projetos</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-            </nav>
+                <div class="redes">
+                    <a href="https://github.com/Luizawmendes" target="_blank">GitHub</a>
+                    <a href="https://www.linkedin.com/in/luiza-mendes-687a29315" target="_blank">LinkedIn</a>
+                    <a href="https://www.instagram.com/zubabalu" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </header>
 
+        <section>
+            <h2>Sobre Mim</h2>
+            <p>
+                Estudante de desenvolvimento web, aprendendo HTML, CSS,
+                JavaScript e criando projetos para praticar. Olá! Meu nome é Maria Luiza 
+                e eu estou sempre cultivando novos conhecimentos.<br>
+                Você está no meu portfólio, onde deixarei algumas coisas sobre mim 
+                e meus projetos. Se quiser entrar em contato ou tirar dúvidas, me 
+                adicione em minhas redes sociais!
+            </p>
+        </section>
+
+        <section>
+            <h2>Formação</h2>
+            <ul>
+                <li>Gestão da Tecnologia da Informação - Fatec de Jahu</li>
+                <small>2025 - cursando</small><br>
+                <br><li>Ensino Médio Completo - E.E."Profº Benedito dos Santos Guerreiro(BSG)"</li><br>
+                <li>Curso Administrativo Bancário - RASC</li>
+                <small>2022 - 2024</small>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+
+        <div class="skills">
+            <div class="html">
+                <span>HTML</span>
             </div>
 
-             <img id="fotodePerfil" src="img/9a4ade65-8e78-4166-81c6-c208a5d6a38e.jpg" class="rounded-circle mb-3" width="160" alt="Foto">
-    </header>
+            <div class="css">
+                <span>CSS</span>
+            </div>
 
-     <main>
-            <section id="home" class="home">
-                <div>
-                    <h2>Home</h2>
-                    <p>Olá! Me chamo Maria Luiza e quero ser uma dev full-stack. Para isso, sei que vou precisar de muita dedicação, e é por isso que estou aqui aprendendo! Gosto de ler, dançar, e passar tempo com meu amado! Espero que goste do site!</p>
+            <div class="flexbox">
+                <span>FlexBox</span>
+            </div>
+
+            <div class="sql">
+                <span>SQL</span>
+            </div>
+        </div>
+        
+        </section>
+
+        <section>
+            <h2>Certificados</h2>
+
+            <div class="badges">
+                <div class="card">
+                    <img src="img/1000327908.png"  width="100px" alt="Python">
                 </div>
 
-                <div class="conteiner">
-
+                <div class="card">
+                    <img src="img/1000327909.png"  width="100px" alt="Cybersecurity">
                 </div>
 
-            </section>
- 
-            <section id="formacao" class="formacao">
+                <div class="card">
+                    <img src="img/1000327910.png"  width="100px" alt="Alura">
+                </div>
+            </div>
+        </section>
 
-                    <h2>Formação</h2>
-    
-                    <div class="certificacao">
-                         <div class="conclusao">
-                            <h3>GTI - FATEC de Jahu</h3>
-                            <p>2024 - dias atuais</p> 
-                            <br>
-                        </div>
-                       
-                        <div class="conclusao">
-                            <h3>Curso Técnico Administrativo Bancário - RASC</h3>
-                            <p>2022 - 2024</p>
-                            <br>
-                        </div>
+        <section>
+            <h2>Projetos</h2>
 
-                        <div class="conclusao">
-    
-                            <h3>E.E."Profº Benedito dos Santos Guerreiro(BSG)"
-                            </h3>
-                            <p>Ensino Médio 2021 - 2024</p>
-                        </div>
-            </section>
+            <div class="projetos">
 
-            <section id="linguagens" class="linguagens">
-
-                <h2>Linguagens</h2>
-
-                <div class="linguagem">
-                    <div class="html">Html</div>
-                    <div class="css">CSS</div>
-                    <div class="sql">SQL</div>
+                <div class="card">
+                    <h3>Projeto 1</h3>
+                    <a href="https://ai.studio/apps/621ca940-84d4-4081-8207-f138354f3141" target="_blank">Ver Projeto</a>
+                    <p>Menu de restaurante utilizando tecnologia Low-Code com Google AI Studio.</p>
                 </div>
 
-            </section>
-
-            <section id="projetos" class="projetos">
-                <h2>Projetos</h2>
-
-                <div class="todosprojetos">
-
-                    <div class="projeto">
-                        <h3>Projeto 1</h3>
-
-                        <p>
-                            Sistema para...
-                        </p>
-
-                        <a href="#" target="_blank">Ver Projeto</a>                                    
-                        <p>descrição do projeto</p>
-                    </div>
-
-                    <div class="projeto">
-                        <h3>Sistema 2</h3>
-
-                        <p>
-                            Sistema para...
-                        </p>
-
-                        <a href="#">Ver Projeto</a> 
-                        <p>descrição do projeto</p>
-                    </div>
-
-                    <div class="projeto">
-                        <h3>Sistema 3</h3>
-
-                        <p>
-                            Sistema para...
-                        </p>
-
-                        <a href="#">Ver Projeto</a>
-                        <p>descrição do projeto</p>
-                    </div>
+                <div class="card">
+                    <h3>Projeto 2</h3>
+                    <a href="https://ai.studio/apps/621ca940-84d4-4081-8207-f138354f3141" target="_blank">Ver Projeto</a>
+                    <p>Sistema gerenciador para restaurantes com edições e Dashboard utilizando Google AI Studio.</p>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section>
-
-                <h2>Gostou do que viu?</h2><br>
-                <p>Entre em contato pelas minnhas redes sociais!</p>
-
-                <div class="contato">
-
-                    <a href="#" target="_blank" img src="img/linkedin-logo-linkedin-icon-transparent-free-png.webp">LinkedIn</a>
-                    <a href="#" target="_blank" img src="img/WhatsApp_icon.png">WhatsApp</a>
-                    <a href="#" target="_blank" img src="img/25231.png">GitHub</a>
-                    <a href="#" target="_blank" img src="img/Instagram_icon.png">Instagram</a>
-
-                </div>
-            </section>
-     </main>
-
-     <footer>
-
-        <p>Maria Luiza dos Santos Mendes - Todos direitos reservados 2026 ©</p>
-
-     </footer>
+    </div>
 
 </body>
 </html>
